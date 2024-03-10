@@ -1,24 +1,48 @@
 ---
 cover: >-
-  https://images.unsplash.com/photo-1528605248644-14dd04022da1?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxMHx8dGVhbSUyMG9mJTIwcGVvcGxlfGVufDB8fHx8MTY2MDMxNzQzNg&ixlib=rb-1.2.1&q=80
-coverY: 0
+  https://images.unsplash.com/photo-1709418354359-6695ee7ea61d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwOTg0Nzl8&ixlib=rb-4.0.3&q=85
+coverY: -237.168
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 👋 Welcome!
 
 {% hint style="info" %}
-**About this template:** An Internal Wiki to lay out everything anyone needs to know about the company, help others get to know your team, product or company better..
+**About the author**
+
+Hi, my name is Kevin Yang and I am a core developer on Nibiru Chain. Previously, I was a software engineer at Google and a student at the University of Waterloo. I spent the last few years diving deep into blockchain technologies so I hope my accumulated knowledge here can help you in your web3 adventure!\
+\
+Twitter: [https://twitter.com/ShanghaiYang](https://twitter.com/ShanghaiYang)
+
+LinkedIn: [https://www.linkedin.com/in/kyang95/](https://www.linkedin.com/in/kyang95/)
+
+Instagram: [https://www.instagram.com/mrkevinyang](https://www.instagram.com/mrkevinyang)
 {% endhint %}
-
-For **new team members**, this space will be helpful during your first days with the team, to better learn about who we are and how we work.
-
-For **long-time team members**, this space will act as a reminder and allow you to find answers about admin and policies etc.
 
 <details>
 
-<summary>How to use it?</summary>
+<summary>About this site</summary>
 
-This space is designed to be read linearly, so start with our Vision, Mission & Focus and work down from there! We recommend reading everything through in one sitting and then revisiting and re-reading if you need to.
+The goal of this site is to provide deep technical knowledge to interact with Nibiru Chain. Why make a separate site when [official docs](https://nibiru.fi/docs) already exists? Well the official docs provide a lot of background material on fundamental blockchain concepts. It's targeted at a broad audience, such as investors, developers, users, node operators/validators, and the general layman.&#x20;
+
+
+
+This site is primarily targeted at advanced developers, so it skips most of the background material and assumes some basic knowledge about blockchains and specifically Cosmos chains. References to background knowledge are included when appropriate.\
+\
+Most of all, this site is mostly a cookbook of commands that I use to interact with Nibiru Chain on a daily basis, and it provides me a playground to quickly update a public website with my commonplace knowledge as needed.&#x20;
 
 </details>
 
@@ -26,6 +50,6 @@ This space is designed to be read linearly, so start with our Vision, Mission & 
 
 <summary>Contributing</summary>
 
-If you want to contribute changes, start a new change request and submit it for review. The People team will review it soon after.
+If you want to contribute changes, start a new change request at [https://github.com/k-yang/gitbook/tree/main](https://github.com/k-yang/gitbook/tree/main) and submit it for review.
 
 </details>
