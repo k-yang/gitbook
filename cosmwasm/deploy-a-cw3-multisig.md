@@ -14,7 +14,7 @@ A CW3 flex multisig contract uses a CW4 group contract as the backing privileged
 curl -Lso cw4_group.wasm \
 https://github.com/CosmWasm/cw-plus/releases/download/v1.1.2/cw4_group.wasm
 
-FROM=nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4
+FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 nibid tx wasm store cw4_group.wasm \
 --from $FROM \
@@ -68,7 +68,7 @@ We compile our own cw3 flex multisig with the stargate feature enabled, but feel
 curl -Lso cw3_flex_multisig.wasm \
 https://github.com/NibiruChain/cw-nibiru/releases/download/latest/cw3_flex_multisig.wasm
 
-FROM=nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4
+FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 nibid tx wasm store cw3_flex_multisig.wasm \
 --from $FROM \
@@ -85,7 +85,7 @@ nibid tx wasm store cw3_flex_multisig.wasm \
 ```bash
 CODE_ID=2
 CW4_GROUP_ADDRESS=nibi14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9ssa9gcs
-FROM=nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4
+FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 cat << EOF | jq | tee cw3_instantiate_args.json
 {
