@@ -21,7 +21,7 @@ nibid tx wasm store cw4_group.wasm \
 --gas auto \
 --gas-adjustment 1.5 \
 --gas-prices 0.025unibi \
---yes |tx
+--yes | tx
 
 # take note of the code id for the next step
 ```
@@ -34,10 +34,14 @@ CODE_ID=1
 
 cat << EOF | jq | tee cw4_group_instantiate_args.json
 {
-    "admin": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
+    "admin": "nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl",
     "members": [
         {
             "addr": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
+            "weight": 1
+        },
+        {
+            "addr": "nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl",
             "weight": 1
         }
     ]
