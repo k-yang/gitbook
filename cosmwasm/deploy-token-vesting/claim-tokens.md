@@ -2,7 +2,7 @@
 
 ## Claim tokens
 
-```
+```bash
 cat <<EOF | jq | tee claim.json
 {
 	"claim": {}
@@ -24,7 +24,7 @@ $CONTRACT_ADDRESS \
 
 ## Query vested tokens
 
-```
+```bash
 CONTRACT_ADDRESS=nibi14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9ssa9gcs
 RECIPIENT=nibi1lq3ktemm9rhpu0je850rnlrny752v6yu9wurws
 
