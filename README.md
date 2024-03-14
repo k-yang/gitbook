@@ -36,13 +36,11 @@ Instagram: [https://www.instagram.com/mrkevinyang](https://www.instagram.com/mrk
 
 <summary>About this site</summary>
 
-The goal of this site is to provide deep technical knowledge to interact with Nibiru Chain. Why make a separate site when [official docs](https://nibiru.fi/docs) already exists? Well the official docs provide a lot of background material on fundamental blockchain concepts. It's targeted at a broad audience, such as investors, developers, users, node operators/validators, and the general layman.&#x20;
+The goal of this site is to provide deep technical knowledge to interact with Nibiru Chain. You may ask why I made a separate site when the [official docs](https://nibiru.fi/docs) already exist? Well, the official docs provide a lot of background material on fundamental blockchain concepts. and it's targeted at a broad audience, such as web3 beginners, investors, developers, blockchain users, and infra operators/validators.&#x20;
 
-
-
-This site is primarily targeted at advanced developers, so it skips most of the background material and assumes some basic knowledge about blockchains and specifically Cosmos chains. References to background knowledge are included when appropriate.\
+This site is primarily targeted at advanced developers, so it skips most of the background material and assumes some basic knowledge about blockchains and specifically Cosmos chains. References to background knowledge are included where appropriate.\
 \
-Most of all, this site is mostly a cookbook of commands that I use to interact with Nibiru Chain on a daily basis, and it provides me a playground to quickly update a public website with my commonplace knowledge as needed.&#x20;
+Most of all, this site is a cookbook of commands that I use to interact with Nibiru Chain on a daily basis, and it allows me to quickly update a site with my knowledge as needed.&#x20;
 
 </details>
 

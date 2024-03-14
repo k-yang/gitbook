@@ -8,10 +8,13 @@
 
 ## CosmWasm
 
-* [Deploy a CW3 Multisig](cosmwasm/deploy-a-cw3-multisig.md)
-* [Stake as CW3](cosmwasm/stake-as-cw3.md)
-* [Claim Token Vests](cosmwasm/claim-token-vests.md)
+* [Deploy a CW3 Multisig](cosmwasm/deploy-a-cw3-multisig/README.md)
+  * [Stake as CW3](cosmwasm/deploy-a-cw3-multisig/stake-as-cw3.md)
+* [Deploy Token Vesting](cosmwasm/deploy-token-vesting/README.md)
+  * [Claim Tokens](cosmwasm/deploy-token-vesting/claim-tokens.md)
 
 ## Node
 
 * [Run Localnet](node/run-localnet.md)
+
+## Token Vesting
