@@ -51,8 +51,8 @@ nibid tx wasm instantiate $CODE_ID "$(cat instantiate.json)" \
 ## Reward user
 
 ```bash
-START_TIME=$(date -u -j -f "%Y-%m-%d %H:%M:%S" "2024-03-13 00:00:00" +%s)
-CLIFF_TIME=$(date -u -j -f "%Y-%m-%d %H:%M:%S" "2024-03-13 00:00:00" +%s)
+START_TIME=$(date -u -j -f "%Y-%m-%d %H:%M:%S" "2024-03-12 00:00:00" +%s)
+CLIFF_TIME=$(date -u -j -f "%Y-%m-%d %H:%M:%S" "2024-03-12 00:00:00" +%s)
 END_TIME=$(date -u -j -f "%Y-%m-%d %H:%M:%S" "2024-09-12 00:00:00" +%s)
 
 CLIFF_AMOUNT=0
@@ -80,17 +80,15 @@ cat << EOF | jq | tee reward_user.json
 }
 EOF
 
+CONTRACT_ADDR=nibi14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9ssa9gcs
+FROM=nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4
+
 nibid tx wasm execute \
-nibi14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9ssa9gcs \
+$CONTRACT_ADDR \
 "$(cat reward_user.json)" \
---from nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4 \
+--from $FROM \
 --gas auto \
 --gas-adjustment 1.5 \
 --gas-prices 0.025unibi \
 --yes | tx
 ```
-
-
-
-
-
