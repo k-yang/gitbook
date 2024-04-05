@@ -5,7 +5,7 @@ I personally use an M1 MacBook pro (darwin/arm64), but these commands should wor
 {% endhint %}
 
 ```bash
-curl -s https://get.nibiru.fi/@v1.0.2! | bash
+curl -s https://get.nibiru.fi/@v1.1.0! | bash
 
 nibid config chain-id cataclysm-1 && \
 nibid config broadcast-mode sync && \
