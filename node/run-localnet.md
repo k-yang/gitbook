@@ -1,11 +1,13 @@
 ---
-description: Runs a localnet without destroying the local keyring
+description: >-
+  Runs a localnet without destroying the local keyring. Destroys local state in
+  the process.
 ---
 
 # Run Localnet
 
 ```bash
-curl -s https://get.nibiru.fi/@v1.0.2! | bash
+curl -s https://get.nibiru.fi/@v1.1.0! | bash
 nibid tendermint unsafe-reset-all
 rm ~/.nibid/config/genesis.json
 rm -rf ~/.nibid/config/gentx/
