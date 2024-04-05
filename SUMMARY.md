@@ -18,3 +18,9 @@
 * [Run Localnet](node/run-localnet.md)
 
 ## Token Vesting
+
+## Core Commands
+
+* [Bank Transfer](core-commands/bank-transfer.md)
+* [IBC Transfer](core-commands/ibc-transfer.md)
+* [Submit Governance Proposal](core-commands/submit-governance-proposal.md)
