@@ -1,26 +1,18 @@
 # Table of contents
 
-* [👋 Welcome!](README.md)
+* [👋 Introduction](README.md)
 
-## Prerequisites
+## Tutorials
 
-* [CLI Setup](prerequisites/cli-setup.md)
+* [CLI Setup](tutorials/cli-setup.md)
+* [Run a Localnet](tutorials/run-a-localnet.md)
 
-## CosmWasm
+## How-To Guides
 
-* [Deploy a CW3 Multisig](cosmwasm/deploy-a-cw3-multisig/README.md)
-  * [Stake as CW3](cosmwasm/deploy-a-cw3-multisig/stake-as-cw3.md)
-* [Deploy Token Vesting](cosmwasm/deploy-token-vesting/README.md)
-  * [Claim Tokens](cosmwasm/deploy-token-vesting/claim-tokens.md)
-
-## Node
-
-* [Run Localnet](node/run-localnet.md)
-
-## Token Vesting
-
-## Core Commands
-
-* [Bank Transfer](core-commands/bank-transfer.md)
-* [IBC Transfer](core-commands/ibc-transfer.md)
-* [Submit Governance Proposal](core-commands/submit-governance-proposal.md)
+* [Deploy a CW3 Multisig](how-to-guides/deploy-a-cw3-multisig/README.md)
+  * [Stake as CW3](how-to-guides/deploy-a-cw3-multisig/stake-as-cw3.md)
+* [Deploy Token Vesting](how-to-guides/deploy-token-vesting/README.md)
+  * [Claim Tokens](how-to-guides/deploy-token-vesting/claim-tokens.md)
+* [Bank Transfer](how-to-guides/bank-transfer.md)
+* [IBC Transfer](how-to-guides/ibc-transfer.md)
+* [Submit Governance Proposal](how-to-guides/submit-governance-proposal.md)
