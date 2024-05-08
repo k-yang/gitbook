@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# 👋 Welcome!
+# Introduction
 
 {% hint style="info" %}
 **About the author**

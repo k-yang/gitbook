@@ -1,11 +1,11 @@
-# Claim Tokens
+# Claim vested tokens
 
 ## Claim tokens
 
 ```bash
 cat <<EOF | jq | tee claim.json
 {
-	"claim": {}
+    "claim": {}
 }
 EOF
 

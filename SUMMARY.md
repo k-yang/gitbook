@@ -1,18 +1,24 @@
 # Table of contents
 
-* [👋 Introduction](README.md)
+* [Introduction](README.md)
 
 ## Tutorials
 
-* [CLI Setup](tutorials/cli-setup.md)
+* [Installation](tutorials/installation.md)
 * [Run a Localnet](tutorials/run-a-localnet.md)
+* [Deploy a CW3 Multisig](tutorials/deploy-a-cw3-multisig/README.md)
+  * [Deploy cw4-group](tutorials/deploy-a-cw3-multisig/deploy-cw4-group.md)
+  * [Deploy cw3-flex-multisig](tutorials/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
+  * [Stake as cw3](tutorials/deploy-a-cw3-multisig/stake-as-cw3.md)
 
 ## How-To Guides
 
-* [Deploy a CW3 Multisig](how-to-guides/deploy-a-cw3-multisig/README.md)
-  * [Stake as CW3](how-to-guides/deploy-a-cw3-multisig/stake-as-cw3.md)
-* [Deploy Token Vesting](how-to-guides/deploy-token-vesting/README.md)
-  * [Claim Tokens](how-to-guides/deploy-token-vesting/claim-tokens.md)
-* [Bank Transfer](how-to-guides/bank-transfer.md)
+* [Transfer tokens to another user](how-to-guides/transfer-tokens-to-another-user.md)
+* [Claim vested tokens](how-to-guides/claim-vested-tokens.md)
+* [Deploy Token Vesting](how-to-guides/deploy-token-vesting.md)
 * [IBC Transfer](how-to-guides/ibc-transfer.md)
 * [Submit Governance Proposal](how-to-guides/submit-governance-proposal.md)
+
+## Concepts
+
+* [What is cw3?](concepts/what-is-cw3.md)

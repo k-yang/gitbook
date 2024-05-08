@@ -1,4 +1,5 @@
 ---
+description: Sets up the CLI to run nibid commands
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: true
 ---
 
-# CLI Setup
+# Installation
 
 {% hint style="info" %}
 I personally use an M1 MacBook pro (darwin/arm64), but these commands should work on any Unix environment.
@@ -42,6 +43,16 @@ nibid config output json
 nibid config chain-id nibiru-testnet-1 && \
 nibid config broadcast-mode sync && \
 nibid config node "https://rpc.testnet-1.nibiru.fi:443" && \
+nibid config keyring-backend test && \
+nibid config output json
+```
+
+### Localnet (nibiru-localnet-0)
+
+```bash
+nibid config chain-id nibiru-localnet-0 && \
+nibid config broadcast-mode sync && \
+nibid config node "http://localhost:26657" && \
 nibid config keyring-backend test && \
 nibid config output json
 ```

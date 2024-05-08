@@ -24,7 +24,7 @@ rm ~/.nibid/config/genesis.json
 rm -rf ~/.nibid/config/gentx/
 ```
 
-## Initialize the home directory
+## Initialize the chain directory
 
 ```bash
 CHAIN=nibiru-localnet-0
@@ -50,29 +50,47 @@ We use the **test** keyring-backend for local development purposes, but it's not
 
 ## Create a wallet
 
+### Option 1: Create a new mnemonic
+
 Creates a new address in your local keyring
 
 ```bash
-nibid keys add tutorial | jq
+nibid keys add validator | jq
 
 # sample output
 {
-  "name": "tutorial",
+  "name": "validator",
   "type": "local",
-  "address": "nibi1n84pu3he9z3yf8cgwhy2xakx6a9ysv58ate3em",
+  "address": "nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl",
   "pubkey": "{\"@type\":\"/cosmos.crypto.secp256k1.PubKey\",\"key\":\"A8BqmOx2Jjc6dPJQsuVK60qAYPa9ancLaX6HNZYVvNj+\"}",
-  "mnemonic": "method west genius either liquid rely tobacco tobacco scorpion high across town shell category hurry satoshi sibling file decide mimic alarm toy rival govern"
+  "mnemonic": "guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host"
 }
 ```
+
+### Option 2: Import an existing mnemonic
+
+```bash
+nibid keys add validator --recover
+```
+
+You can input the following mnemonic:
+
+```
+guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host
+```
+
+{% hint style="info" %}
+The mnemonics that appear on this page are no longer safe and should not be used in production.
+{% endhint %}
 
 ## Configure x/sudo state
 
 Required because we don't allow empty sudo addresses in the genesis state. Use the address from the step above.
 
-<pre class="language-bash"><code class="lang-bash"><strong>cat ~/.nibid/config/genesis.json | jq '.app_state.sudo.sudoers.root = "nibi1n84pu3he9z3yf8cgwhy2xakx6a9ysv58ate3em"' > ~/.nibid/config/tmp_genesis.json
+<pre class="language-bash"><code class="lang-bash"><strong>cat ~/.nibid/config/genesis.json | jq '.app_state.sudo.sudoers.root = "nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl"' > ~/.nibid/config/tmp_genesis.json
 </strong>mv ~/.nibid/config/tmp_genesis.json ~/.nibid/config/genesis.json
 
-cat ~/.nibid/config/genesis.json | jq '.app_state.sudo.sudoers.contracts = ["nibi1n84pu3he9z3yf8cgwhy2xakx6a9ysv58ate3em"]' > ~/.nibid/config/tmp_genesis.json
+cat ~/.nibid/config/genesis.json | jq '.app_state.sudo.sudoers.contracts = ["nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl"]' > ~/.nibid/config/tmp_genesis.json
 mv ~/.nibid/config/tmp_genesis.json ~/.nibid/config/genesis.json
 </code></pre>
 
@@ -80,10 +98,10 @@ mv ~/.nibid/config/tmp_genesis.json ~/.nibid/config/genesis.json
 
 ```bash
 CHAIN=nibiru-localnet-0
-ADDRESS=nibi1n84pu3he9z3yf8cgwhy2xakx6a9ysv58ate3em
+ADDRESS=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 nibid add-genesis-account $ADDRESS 10000000000000000000unibi
-nibid genesis gentx tutorial 9000000000unibi --chain-id $CHAIN
+nibid genesis gentx validator 9000000000unibi --chain-id $CHAIN
 nibid genesis collect-gentxs
 ```
 
