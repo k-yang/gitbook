@@ -1,5 +1,5 @@
 ---
-description: 'Goal: Run a single-node blockchain on your local comput'
+description: 'Goal: Run a single-node blockchain on your local computer'
 ---
 
 # Run a Localnet

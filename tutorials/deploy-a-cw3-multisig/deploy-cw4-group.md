@@ -4,12 +4,18 @@ description: 'Goal: deploy a cw4 group contract which backs a cw3-flex-multisig 
 
 # Deploy cw4-group
 
-## Upload cw4 contract
+## # Download contract bytecode
 
 ```bash
 curl -Lso cw4_group.wasm \
 https://github.com/CosmWasm/cw-plus/releases/download/v1.1.2/cw4_group.wasm
+```
 
+## Upload cw4 contract
+
+Stores the contract bytecode onchain so that it can be instantiated (next step).&#x20;
+
+```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 nibid tx wasm store cw4_group.wasm \
@@ -42,7 +48,9 @@ Take note of the code id for the next step, e.g.
 
 ## Instantiate cw4 contract
 
-Use the code id from the previous step
+A contract instance is created from bytecode stored onchain.&#x20;
+
+Use the code id from the previous step.
 
 ```bash
 CODE_ID=1 # code id from last step
