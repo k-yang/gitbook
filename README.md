@@ -23,7 +23,7 @@ layout:
 {% hint style="info" %}
 **About the author**
 
-Hi, my name is Kevin Yang and I am a core developer on Nibiru Chain. Previously, I was a software engineer at Google and a student at the University of Waterloo. I spent the last few years diving deep into blockchain technologies so I hope my accumulated knowledge here can help you in your web3 adventure!\
+Hi, my name is Kevin Yang and I am the CTO and co-founder of  Nibiru Chain. Previously, I was a software engineer at Google and an engineering student at the University of Waterloo.\
 \
 Twitter: [https://twitter.com/ShanghaiYang](https://twitter.com/ShanghaiYang)
 
@@ -32,22 +32,9 @@ LinkedIn: [https://www.linkedin.com/in/kyang95/](https://www.linkedin.com/in/kya
 Instagram: [https://www.instagram.com/mrkevinyang](https://www.instagram.com/mrkevinyang)
 {% endhint %}
 
-<details>
+## About this site
 
-<summary>About this site</summary>
+This site is my personal knowledge book for working with Nibiru Chain. You should read the [official docs](https://nibiru.fi/docs) also. You may ask why I made a separate site when the official docs already exist? There are a couple of reasons:
 
-The goal of this site is to provide deep technical knowledge to interact with Nibiru Chain. You may ask why I made a separate site when the [official docs](https://nibiru.fi/docs) already exist? Well, the official docs provide a lot of background material on fundamental blockchain concepts. and it's targeted at a broad audience, such as web3 beginners, investors, developers, blockchain users, and infra operators/validators.&#x20;
-
-This site is primarily targeted at advanced developers, so it skips most of the background material and assumes some basic knowledge about blockchains and specifically Cosmos chains. References to background knowledge are included where appropriate.\
-\
-Most of all, this site is a cookbook of commands that I use to interact with Nibiru Chain on a daily basis, and it allows me to quickly update a site with my knowledge as needed.&#x20;
-
-</details>
-
-<details>
-
-<summary>Contributing</summary>
-
-If you want to contribute changes, start a new change request at [https://github.com/k-yang/gitbook/tree/main](https://github.com/k-yang/gitbook/tree/main) and submit it for review.
-
-</details>
+1. The official docs is targeted at a broader audience, such as web3 beginners, investors, developers, blockchain users, and infra operators/validators. This site is focused primarily on developers.
+2. This site allows me to iterate quickly without having to worry about SEO or branding. That being said, all content on this site is completely independent and not representative of the Nibiru Chain foundation.
