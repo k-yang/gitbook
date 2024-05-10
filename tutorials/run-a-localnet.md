@@ -15,7 +15,7 @@ curl -s https://get.nibiru.fi/@v1.2.0! | bash
 Only necessary if you have pre-existing state in your `~/.nibid` folder, i.e. if you've run a local chain before.
 
 {% hint style="danger" %}
-Never run these commands on your mainnet nodes, or else you'll lose data.
+Never run these commands on mainnet nodes, or else you'll lose data.
 {% endhint %}
 
 ```bash
@@ -49,6 +49,8 @@ We use the **test** keyring-backend for local development purposes, but it's not
 {% endhint %}
 
 ## Create a wallet
+
+Not required if you've already added a wallet.
 
 ### Option 1: Create a new mnemonic
 
