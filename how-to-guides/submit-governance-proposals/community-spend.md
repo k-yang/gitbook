@@ -2,7 +2,7 @@
 description: Disburses funds from the on-chain community reserve
 ---
 
-# Community spend proposal
+# Community spend
 
 ## Draft the proposal
 
@@ -27,8 +27,8 @@ cat << EOF | jq | tee draft_proposal.json
  ],
  "metadata": "",
  "deposit": "20000000000unibi",
- "title": "<enter title here>",
- "summary": "<enter summary here>"
+ "title": "Disburse tokens to refund users slashed by oracle pricefeeder bug on 04-24-2024.",
+ "summary": "https://nibiru.notion.site/Nibiru-Oracle-Post-Mortem-April-2024-d009af996f3c4fb399d805ecbe2dee14"
 }
 EOF
 ```

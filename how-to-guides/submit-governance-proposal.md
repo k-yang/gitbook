@@ -1,4 +1,4 @@
 # Submit governance proposals
 
-1. [community-spend-proposal.md](submit-governance-proposals/community-spend-proposal.md "mention")
-2. [software-upgrade-proposal.md](submit-governance-proposals/software-upgrade-proposal.md "mention")
+1. [community-spend.md](submit-governance-proposals/community-spend.md "mention")
+2. [software-upgrade.md](submit-governance-proposals/software-upgrade.md "mention")

@@ -23,8 +23,11 @@
   * [Query vested tokens](how-to-guides/token-vesting-contracts/query-vested-tokens.md)
   * [Claim vested tokens](how-to-guides/claim-vested-tokens.md)
 * [Submit governance proposals](how-to-guides/submit-governance-proposal.md)
-  * [Community spend proposal](how-to-guides/submit-governance-proposals/community-spend-proposal.md)
-  * [Software upgrade proposal](how-to-guides/submit-governance-proposals/software-upgrade-proposal.md)
+  * [Community spend](how-to-guides/submit-governance-proposals/community-spend.md)
+  * [Software upgrade](how-to-guides/submit-governance-proposals/software-upgrade.md)
+  * [Update gov params](how-to-guides/submit-governance-proposals/update-gov-params.md)
+  * [Toggle inflation](how-to-guides/submit-governance-proposals/toggle-inflation.md)
+  * [Vote on proposal](how-to-guides/submit-governance-proposals/vote-on-proposal.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)
 
 ## Concepts
