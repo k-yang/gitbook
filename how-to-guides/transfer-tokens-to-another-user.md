@@ -1,3 +1,7 @@
+---
+description: Simple bank transfer
+---
+
 # Transfer tokens to another user
 
 ```bash

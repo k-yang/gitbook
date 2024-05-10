@@ -24,9 +24,9 @@ nibid tx wasm store core_token_vesting_v2.wasm \
 --yes | tx
 ```
 
-## Instantiate contract
+Save the code id for the next step.
 
-Use the code is from the previous step.&#x20;
+## Instantiate contract
 
 The `amount` cannot be changed after instantiation.
 
@@ -54,7 +54,7 @@ nibid tx wasm instantiate $CODE_ID "$(cat instantiate.json)" \
 --yes | tx
 ```
 
-Save the contract address from the response.
+Save the contract address from the response, e.g. `nibi1unyuj8qnmygvzuex3dwmg9yzt9alhvyeat0uu0jedg2wj33efl5qlplsk6`.
 
 ## Prepare the reward user message
 

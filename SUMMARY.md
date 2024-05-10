@@ -22,7 +22,7 @@
   * [Deploy token vesting contract](how-to-guides/deploy-token-vesting.md)
   * [Query vested tokens](how-to-guides/token-vesting-contracts/query-vested-tokens.md)
   * [Claim vested tokens](how-to-guides/claim-vested-tokens.md)
-* [Submit governance proposals](how-to-guides/submit-governance-proposals/README.md)
+* [Submit governance proposals](how-to-guides/submit-governance-proposal.md)
   * [Community spend proposal](how-to-guides/submit-governance-proposals/community-spend-proposal.md)
   * [Software upgrade proposal](how-to-guides/submit-governance-proposals/software-upgrade-proposal.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)

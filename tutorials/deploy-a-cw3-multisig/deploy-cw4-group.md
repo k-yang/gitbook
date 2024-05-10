@@ -4,7 +4,7 @@ description: 'Goal: deploy a cw4 group contract which backs a cw3-flex-multisig 
 
 # Deploy cw4-group
 
-## # Download contract bytecode
+## Download contract bytecode
 
 ```bash
 curl -Lso cw4_group.wasm \
