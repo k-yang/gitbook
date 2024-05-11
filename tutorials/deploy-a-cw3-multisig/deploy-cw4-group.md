@@ -4,6 +4,8 @@ description: 'Goal: deploy a cw4 group contract which backs a cw3-flex-multisig 
 
 # Deploy cw4-group
 
+Requires a [localnet](../run-a-localnet.md) to be running.
+
 ## Download contract bytecode
 
 ```bash
