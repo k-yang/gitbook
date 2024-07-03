@@ -17,6 +17,8 @@
   * [Run a chaosnet](tutorials/ibc/run-a-chaosnet.md)
   * [IBC Transfer](tutorials/ibc/ibc-transfer.md)
   * [Interchain Accounts](tutorials/ibc/interchain-accounts.md)
+* [EVM](tutorials/evm/README.md)
+  * [Deploy a contract](tutorials/evm/deploy-a-contract.md)
 
 ## How-To Guides
 
