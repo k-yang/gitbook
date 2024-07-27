@@ -71,7 +71,7 @@ async function main() {
   const provider = new JsonRpcProvider("http://localhost:8545");
 
   const owner = HDNodeWallet.fromPhrase("guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host", "", "m/44'/118'/0'/0/0").connect(provider)
-  const contract = MyToken__factory.connect("0x76e03400dC49dD3Dbede29f5e11b0e7bc215F202", owner);
+  const contract = MyToken__factory.connect("0xe5F54D19AA5c3c16ba70bC1E5112Fe37F1764134", owner);
   console.log(await contract.totalSupply())
   
   const alice = HDNodeWallet.fromPhrase("guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host", "", "m/44'/118'/0'/0/1").connect(provider)
