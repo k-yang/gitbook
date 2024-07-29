@@ -27,7 +27,7 @@ You should have a sample `Lock.sol` contract under `contracts/`. Compile it by r
 npx hardhat compile
 ```
 
-It will put the compilation output under `artifacts/`. There's no need to look at these contents unless you're interested in low level EVM internals.
+It will generate the compilation output under `artifacts/`. There's no need to look at these contents unless you're interested in low level EVM internals.
 
 ## Deploy your contract
 

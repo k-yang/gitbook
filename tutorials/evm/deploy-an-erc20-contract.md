@@ -2,7 +2,7 @@
 
 ## Create the contract
 
-Create a `MyToken.sol` file under `contracts/` and enter the following code
+Create a `MyToken.sol` file under `contracts/` with the following code
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -29,7 +29,7 @@ contract MyToken is ERC20, ERC20Burnable, Ownable, ERC20Permit {
 }
 ```
 
-Then create a file named `MyToken.ts` under `ignition/modules` and write the following code
+Then create a file named `MyToken.ts` under `ignition/modules` with the following code
 
 ```typescript
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
@@ -61,25 +61,38 @@ MyTokenModule#MyToken - 0xe5F54D19AA5c3c16ba70bC1E5112Fe37F1764134
 
 ## Interact with the contract
 
-Next, create a file named `main.ts` in the root folder.
+Next, create a file named `main.ts` with the following code. Be sure to replace `myTokenContractAddress` with the output address from the previous step.&#x20;
 
 ```typescript
 import { HDNodeWallet, JsonRpcProvider } from "ethers";
-import { MyToken__factory } from "./typechain-types";
+import { MyToken__factory } from "../typechain-types";
+
+// connects to local node
+const jsonRpcProvider = new JsonRpcProvider("http://localhost:8545");
+
+// mnemonic for the HD wallet
+const mnemonic = "guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host"
+const owner = HDNodeWallet.fromPhrase(mnemonic, "", "m/44'/118'/0'/0/0").connect(jsonRpcProvider)
+const alice = HDNodeWallet.fromPhrase(mnemonic, "", "m/44'/118'/0'/0/1").connect(jsonRpcProvider)
+
+// contract address
+const myTokenContractAddress = "0xe5F54D19AA5c3c16ba70bC1E5112Fe37F1764134"
+const MyTokenContract = MyToken__factory.connect(myTokenContractAddress, owner);
 
 async function main() {
-  const provider = new JsonRpcProvider("http://localhost:8545");
+  // obtain the total supply of the ERC-20 contract
+  console.log("ERC-20 contract total supply: ", await MyTokenContract.totalSupply())
+  console.log("Owner balance: ", await MyTokenContract.balanceOf(owner.address))
+  console.log("Alice balance: ",  await MyTokenContract.balanceOf(alice.address))
 
-  const owner = HDNodeWallet.fromPhrase("guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host", "", "m/44'/118'/0'/0/0").connect(provider)
-  const contract = MyToken__factory.connect("0xe5F54D19AA5c3c16ba70bC1E5112Fe37F1764134", owner);
-  console.log(await contract.totalSupply())
-  
-  const alice = HDNodeWallet.fromPhrase("guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host", "", "m/44'/118'/0'/0/1").connect(provider)
+  // transfer from owner to alice
+  const transferTx = await MyTokenContract.transfer(alice.address, BigInt(1000))
+  const txReceipt = await transferTx.wait();
+  console.log(txReceipt)
 
-  const transferTx = await contract.transfer(alice.address, BigInt(1000))
-  await transferTx.wait();
-  console.log(await contract.balanceOf(owner.address))
-  console.log(await contract.balanceOf(alice.address))
+  // re-check balances
+  console.log("Owner balance: ", await MyTokenContract.balanceOf(owner.address))
+  console.log("Alice balance: ",  await MyTokenContract.balanceOf(alice.address))
 }
 
 main()
