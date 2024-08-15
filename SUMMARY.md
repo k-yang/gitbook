@@ -35,6 +35,7 @@
   * [Toggle inflation](how-to-guides/submit-governance-proposals/toggle-inflation.md)
   * [Vote on proposal](how-to-guides/submit-governance-proposals/vote-on-proposal.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)
+* [How to bridge USDC to Nibiru Chain](how-to-guides/how-to-bridge-usdc-to-nibiru-chain.md)
 
 ## Concepts
 
