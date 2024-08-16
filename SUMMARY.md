@@ -36,6 +36,8 @@
   * [Vote on proposal](how-to-guides/submit-governance-proposals/vote-on-proposal.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)
 * [How to bridge USDC to Nibiru Chain](how-to-guides/how-to-bridge-usdc-to-nibiru-chain.md)
+* [Send bank coins to ERC-20](how-to-guides/send-bank-coins-to-erc-20.md)
+* [Send ERC-20 tokens to bank](how-to-guides/send-erc-20-tokens-to-bank.md)
 
 ## Concepts
 
