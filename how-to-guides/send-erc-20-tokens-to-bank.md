@@ -4,7 +4,7 @@ First, start a [localnet](../tutorials/run-a-localnet.md)&#x20;
 
 ## Create a fungible token mapping from an ERC-20 contract
 
-First, deploy an [ERC-20 contract](../tutorials/evm/deploy-an-erc20-contract.md). Then, run the following command:
+First, deploy an [ERC-20 contract](broken-reference). Then, run the following command:
 
 ```bash
 CONTRACT_ADDRESS=0x76e03400dC49dD3Dbede29f5e11b0e7bc215F202

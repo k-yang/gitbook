@@ -18,8 +18,7 @@
   * [IBC Transfer](tutorials/ibc/ibc-transfer.md)
   * [Interchain Accounts](tutorials/ibc/interchain-accounts.md)
 * [EVM](tutorials/evm/README.md)
-  * [Deploy a simple contract](tutorials/evm/deploy-a-simple-contract.md)
-  * [Deploy an ERC20 contract](tutorials/evm/deploy-an-erc20-contract.md)
+  * [ERC20 Contract](tutorials/evm/erc20-contract.md)
 
 ## How-To Guides
 

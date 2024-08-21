@@ -7,7 +7,7 @@ description: 'Goal: Run a single-node blockchain on your local computer'
 ## Download the binary
 
 ```bash
-curl -s https://get.nibiru.fi/@v1.2.0! | bash
+curl -s https://get.nibiru.fi/@v1.5.0! | bash
 ```
 
 ## Remove any pre-existing state
