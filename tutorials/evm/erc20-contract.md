@@ -8,9 +8,11 @@ description: >-
 
 ## Faucet
 
-If you know your address already, you can skip the next step
+You can skip to [#initialize-hardhat](erc20-contract.md#initialize-hardhat "mention") if you've already obtained funds.
 
 ### Generating your wallet address
+
+If you know your address already, you can skip to [#obtain-funds-from-faucet](erc20-contract.md#obtain-funds-from-faucet "mention").
 
 Create a file named `scripts/wallet_address.ts`
 
