@@ -43,63 +43,30 @@ Head to [https://app.nibiru.fi/faucet](https://app.nibiru.fi/faucet), select the
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-08-21 at 10.46.36 AM.png" alt=""><figcaption><p>Nibiru Faucet</p></figcaption></figure>
 
-## Initialize Hardhat
+## Initialize project directory
 
-Creates a directory that will act as your Hardhat project root.&#x20;
-
-```bash
-mkdir hardhat-example
-cd hardhat-example
-
-npm init --yes
-npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
-npx hardhat init
-```
-
-Select `Create a TypeScript project` when prompted.
-
-## Create the contract
-
-Create a `MyToken.sol` file under `contracts/` with the following code
-
-```solidity
-// SPDX-License-Identifier: MIT
-// Compatible with OpenZeppelin Contracts ^5.0.0
-pragma solidity ^0.8.20;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
-
-contract MyToken is ERC20, ERC20Burnable, Ownable, ERC20Permit {
-    constructor(address initialOwner)
-        ERC20("MyToken", "MTK")
-        Ownable(initialOwner)
-        ERC20Permit("MyToken")
-    {
-        _mint(msg.sender, 1000000 * 10 ** decimals());
-    }
-
-    function mint(address to, uint256 amount) public onlyOwner {
-        _mint(to, amount);
-    }
-}
-```
-
-### Compile the contract
-
-Compile your by running
+Clone the sample repo and compile the contracts.
 
 ```bash
+git clone https://github.com/k-yang/evm-contracts.git
+cd evm-contracts
+
+npm install
+
+# compile contract
 npx hardhat compile
+
 ```
 
-It will generate the compilation output under `artifacts/`. There's no need to look at these contents unless you're interested in low level EVM internals.
+It will generate the compilation output under `artifacts/`. There's no need to look at these contents unless you're interested in low level EVM internals.&#x20;
 
 ## Deploy and interact with the contract
 
-Next, create a file named `scripts/deploy_erc20.ts` with the following code.
+Next, we will deploy the `MyToken.sol` contract. You can take a look at `scripts/deploy_erc20.ts` to see what the script executes.
+
+<details>
+
+<summary><code>deploy_erc20.ts</code></summary>
 
 ```typescript
 import { HDNodeWallet, JsonRpcProvider } from "ethers";
@@ -137,7 +104,11 @@ async function main() {
 main()
 ```
 
-Then run
+
+
+</details>
+
+Run the script:
 
 <pre class="language-bash"><code class="lang-bash"><strong>$ npx ts-node scripts/deploy_erc20.ts
 </strong>
