@@ -106,7 +106,7 @@ import { HDNodeWallet, JsonRpcProvider } from "ethers";
 import { MyToken__factory } from "../typechain-types";
 
 // connects to local node
-const jsonRpcProvider = new JsonRpcProvider("https://evm-rpc.devnet-1.nibiru.fi:443");
+const jsonRpcProvider = new JsonRpcProvider("https://evm-rpc.testnet-1.nibiru.fi:443");
 
 // mnemonic for the HD wallet
 const mnemonic = "guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host"
