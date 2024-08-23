@@ -55,7 +55,6 @@ npm install
 
 # compile contract
 npx hardhat compile
-
 ```
 
 It will generate the compilation output under `artifacts/`. There's no need to look at these contents unless you're interested in low level EVM internals.&#x20;
