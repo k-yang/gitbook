@@ -6,43 +6,6 @@ description: >-
 
 # ERC20 Contract
 
-## Faucet
-
-You can skip to [#initialize-hardhat](erc20-contract.md#initialize-hardhat "mention") if you've already obtained funds.
-
-### Generating your wallet address
-
-If you know your address already, you can skip to [#obtain-funds-from-faucet](erc20-contract.md#obtain-funds-from-faucet "mention").
-
-Create a file named `scripts/wallet_address.ts`
-
-```typescript
-import { HDNodeWallet } from "ethers";
-
-// mnemonic for the HD wallet
-const mnemonic = "guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host"
-const owner = HDNodeWallet.fromPhrase(mnemonic, "", "m/44'/118'/0'/0/0")
-
-async function main() {
-  console.log("owner address:", owner.address)
-}
-
-main()
-```
-
-Then run
-
-<pre class="language-bash"><code class="lang-bash"><strong>$ npx ts-node scripts/wallet_address.ts
-</strong>
-owner address: 0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
-</code></pre>
-
-### Obtain funds from faucet
-
-Head to [https://app.nibiru.fi/faucet](https://app.nibiru.fi/faucet), select the correct network from the dropdown in the top right, and enter your wallet address.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-21 at 10.46.36 AM.png" alt=""><figcaption><p>Nibiru Faucet</p></figcaption></figure>
-
 ## Initialize project directory
 
 Clone the sample repo and compile the contracts.
@@ -58,6 +21,51 @@ npx hardhat compile
 ```
 
 It will generate the compilation output under `artifacts/`. There's no need to look at these contents unless you're interested in low level EVM internals.&#x20;
+
+## Faucet
+
+You can skip to [#initialize-hardhat](erc20-contract.md#initialize-hardhat "mention") if you've already obtained funds.
+
+### Generating your wallet address
+
+If you know your address already, you can skip to [#obtain-funds-from-faucet](erc20-contract.md#obtain-funds-from-faucet "mention").
+
+There is a script that outputs your Nibiru EVM address given an input mnemonic:
+
+<details>
+
+<summary><code>scripts/wallet_address.ts</code></summary>
+
+```typescript
+import { HDNodeWallet } from "ethers";
+
+// mnemonic for the HD wallet
+const mnemonic = "guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host"
+const owner = HDNodeWallet.fromPhrase(mnemonic, "", "m/44'/118'/0'/0/0")
+
+async function main() {
+  console.log("owner address:", owner.address)
+}
+
+main()
+```
+
+Feel free to change the mnemonic to your own to generate your Nibiru EVM address.
+
+</details>
+
+Then run:
+
+<pre class="language-bash"><code class="lang-bash"><strong>$ npx ts-node scripts/wallet_address.ts
+</strong>
+owner address: 0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
+</code></pre>
+
+### Obtain funds from faucet
+
+Head to [https://app.nibiru.fi/faucet](https://app.nibiru.fi/faucet), select the correct network from the dropdown in the top right, and enter your wallet address.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-21 at 10.46.36 AM.png" alt=""><figcaption><p>Nibiru Faucet</p></figcaption></figure>
 
 ## Deploy and interact with the contract
 
