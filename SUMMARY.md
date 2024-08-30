@@ -38,6 +38,7 @@
 * [Send bank coins to ERC-20](how-to-guides/send-bank-coins-to-erc-20.md)
 * [Send ERC-20 tokens to bank](how-to-guides/send-erc-20-tokens-to-bank.md)
 * [Query ERC-20 contract info](how-to-guides/query-erc-20-contract-info.md)
+* [How to use Nibiru's testnet faucet](how-to-guides/how-to-use-nibirus-testnet-faucet.md)
 
 ## Concepts
 
