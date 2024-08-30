@@ -43,3 +43,7 @@
 
 * [CosmWasm](concepts/cosmwasm.md)
 * [What is cw3?](concepts/what-is-cw3.md)
+
+## Reference
+
+* [Testnet RPC URLs](reference/testnet-rpc-urls.md)
