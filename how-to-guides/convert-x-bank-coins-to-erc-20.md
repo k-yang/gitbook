@@ -1,4 +1,4 @@
-# Send bank coins to ERC-20
+# Convert x/bank coins to ERC-20
 
 First, start a [localnet](../tutorials/run-a-localnet.md)&#x20;
 
@@ -53,7 +53,7 @@ There should be a `EventFunTokenCreated` event that displays the newly deployed 
 
 </details>
 
-## Send bank coins to ERC-20
+## Convert bank coins to ERC-20
 
 ```bash
 TO=0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8

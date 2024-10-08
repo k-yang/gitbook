@@ -1,8 +1,6 @@
----
-description: Simple bank transfer
----
+# Bank commands
 
-# Transfer tokens to another user
+## Send tokens
 
 ```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
