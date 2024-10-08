@@ -40,6 +40,10 @@
 * [Query ERC-20 contract info](how-to-guides/query-erc-20-contract-info.md)
 * [How to use Nibiru's testnet faucet](how-to-guides/how-to-use-nibirus-testnet-faucet.md)
 * [Liquid Stake $NIBI with Eris Protocol](how-to-guides/liquid-stake-usdnibi-with-eris-protocol.md)
+* [Stake and claim rewards](how-to-guides/stake-and-claim-rewards/README.md)
+  * [Query all delegations](how-to-guides/stake-and-claim-rewards/query-all-delegations.md)
+  * [Query all staking rewards](how-to-guides/stake-and-claim-rewards/query-all-staking-rewards.md)
+  * [Withdraw all staking rewards](how-to-guides/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
 
 ## Concepts
 
