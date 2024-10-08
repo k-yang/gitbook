@@ -53,3 +53,4 @@
 ## Reference
 
 * [Testnet RPC URLs](reference/testnet-rpc-urls.md)
+* [Tokenfactory commands](reference/tokenfactory-commands.md)
