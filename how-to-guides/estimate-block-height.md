@@ -11,7 +11,7 @@ git clone https://github.com/Agoric/estimator.git && \
 cd estimator
 ```
 
-## Run the estimator
+## Estimate a datetime's block height
 
 ```bash
 go run main.go \
@@ -22,3 +22,12 @@ go run main.go \
 ```
 
 10000 samples should be good enough to get a close enough estimate. It should take less than 10 minutes to run.&#x20;
+
+## Estimate a block height's datetime
+
+```bash
+go run main.go \
+-height 100 \
+-rpc https://nibiru.rpc.kjnodes.com:443 \
+-samples 10000
+```
