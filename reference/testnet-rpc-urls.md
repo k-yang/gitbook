@@ -24,7 +24,7 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.testnet-1.nibiru.fi:443**
 
 EVM WebSocket URL: **wss://evm-rpc-ws.testnet-1.nibiru.fi**
 
-EVM Chain ID: 7210
+EVM Chain ID: **7210**
 
 </details>
 
@@ -52,7 +52,7 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.devnet-1.nibiru.fi:443**
 
 EVM WebSocket URL: **wss://evm-rpc-ws.devnet-1.nibiru.fi**
 
-EVM Chain ID: 7220
+EVM Chain ID: **7220**
 
 </details>
 
@@ -80,7 +80,7 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.devnet-3.nibiru.fi:443**
 
 EVM WebSocket URL: **wss://evm-rpc-ws.devnet-3.nibiru.fi**
 
-EVM Chain ID: 7222
+EVM Chain ID: **7222**
 
 </details>
 
@@ -108,7 +108,7 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.nibiru.fi:443**
 
 EVM WebSocket URL: **wss://evm-rpc-ws.nibiru.fi**
 
-EVM Chain ID: 7200
+EVM Chain ID: **7200**
 
 </details>
 
