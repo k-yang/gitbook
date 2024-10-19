@@ -9,6 +9,7 @@
 * [CosmWasm](tutorials/cosmwasm/README.md)
   * [Simple counter](tutorials/cosmwasm/simple-counter.md)
   * [CW20](tutorials/cosmwasm/cw20.md)
+  * [Oracle Query](tutorials/cosmwasm/oracle-query.md)
 * [Deploy a CW3 Multisig](tutorials/deploy-a-cw3-multisig/README.md)
   * [Deploy cw4-group](tutorials/deploy-a-cw3-multisig/deploy-cw4-group.md)
   * [Deploy cw3-flex-multisig](tutorials/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
