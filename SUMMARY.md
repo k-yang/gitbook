@@ -9,7 +9,6 @@
 * [CosmWasm](tutorials/cosmwasm/README.md)
   * [Simple counter](tutorials/cosmwasm/simple-counter.md)
   * [CW20](tutorials/cosmwasm/cw20.md)
-  * [Oracle Query](tutorials/cosmwasm/oracle-query.md)
 * [Deploy a CW3 Multisig](tutorials/deploy-a-cw3-multisig/README.md)
   * [Deploy cw4-group](tutorials/deploy-a-cw3-multisig/deploy-cw4-group.md)
   * [Deploy cw3-flex-multisig](tutorials/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
@@ -40,6 +39,7 @@
 * [Query ERC-20 contract info](how-to-guides/query-erc-20-contract-info.md)
 * [How to use Nibiru's testnet faucet](how-to-guides/how-to-use-nibirus-testnet-faucet.md)
 * [Liquid Stake $NIBI with Eris Protocol](how-to-guides/liquid-stake-usdnibi-with-eris-protocol.md)
+* [CosmWasm oracle query](how-to-guides/cosmwasm-oracle-query.md)
 
 ## Concepts
 
