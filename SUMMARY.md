@@ -45,6 +45,8 @@
 
 * [CosmWasm](concepts/cosmwasm.md)
 * [What is cw3?](concepts/what-is-cw3.md)
+* [Custom precompiles](concepts/custom-precompiles/README.md)
+  * [Fungible token precompile](concepts/custom-precompiles/fungible-token-precompile.md)
 
 ## Reference
 
