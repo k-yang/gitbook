@@ -1,4 +1,4 @@
-# Testnet RPC URLs
+# Network Constants
 
 <details>
 
@@ -108,7 +108,7 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.nibiru.fi:443**
 
 EVM WebSocket URL: **wss://evm-rpc-ws.nibiru.fi**
 
-EVM Chain ID: **7200**
+EVM Chain ID: **6900**
 
 </details>
 
