@@ -50,7 +50,7 @@
 
 ## Reference
 
-* [Testnet RPC URLs](reference/testnet-rpc-urls.md)
+* [Network Constants](reference/network-constants.md)
 * [Tokenfactory commands](reference/tokenfactory-commands.md)
 * [Bank commands](reference/bank-commands.md)
 * [Stake and claim rewards](reference/stake-and-claim-rewards/README.md)
