@@ -52,7 +52,7 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.testnet-2.nibiru.fi:443**
 
 EVM WebSocket URL: **wss://evm-rpc-ws.testnet-2.nibiru.fi**
 
-EVM Chain ID: **7220**
+EVM Chain ID: 69**20**
 
 </details>
 
