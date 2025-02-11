@@ -58,10 +58,10 @@ There should be a `EventFunTokenCreated` event that displays the newly deployed 
 ## Convert bank coins to ERC-20
 
 ```bash
-TO=0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
+TO=0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
 
-nibid tx evm send-funtoken-to-erc20 \
+nibid tx evm convert-coin-to-evm \
 $TO \
 1000unibi \
 --from $FROM \
