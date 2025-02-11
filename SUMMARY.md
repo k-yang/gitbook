@@ -40,6 +40,7 @@
 * [How to use Nibiru's testnet faucet](how-to-guides/how-to-use-nibirus-testnet-faucet.md)
 * [Liquid Stake $NIBI with Eris Protocol](how-to-guides/liquid-stake-usdnibi-with-eris-protocol.md)
 * [CosmWasm oracle query](how-to-guides/cosmwasm-oracle-query.md)
+* [Add Nibiru Chain to MetaMask](how-to-guides/add-nibiru-chain-to-metamask.md)
 
 ## Concepts
 
