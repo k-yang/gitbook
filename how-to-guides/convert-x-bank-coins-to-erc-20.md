@@ -7,8 +7,10 @@ First, start a [localnet](../tutorials/run-a-localnet.md)&#x20;
 Run the following command:
 
 ```bash
+FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
+
 nibid tx evm create-funtoken-from-bank-coin unibi \
---from validator \
+--from $FROM \
 --gas auto \
 --gas-adjustment 1.5 \
 --gas-prices 0.025unibi \
@@ -57,11 +59,12 @@ There should be a `EventFunTokenCreated` event that displays the newly deployed 
 
 ```bash
 TO=0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
+FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 nibid tx evm send-funtoken-to-erc20 \
 $TO \
 1000unibi \
---from validator \
+--from $FROM \
 --gas auto \
 --gas-adjustment 1.5 \
 --gas-prices 0.025unibi \
