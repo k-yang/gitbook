@@ -138,5 +138,9 @@ EVM WebSocket URL: **wss://evm-rpc-ws.nibiru.fi**
 
 EVM Chain ID: **6900**
 
+
+
+NIBI ERC-20 Contract Address: `0x7D4B7B8CA7E1a24928Bb96D59249c7a5bd1DfBe6`
+
 </details>
 
