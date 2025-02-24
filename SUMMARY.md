@@ -58,3 +58,4 @@
   * [Query all delegations](reference/stake-and-claim-rewards/query-all-delegations.md)
   * [Query all staking rewards](reference/stake-and-claim-rewards/query-all-staking-rewards.md)
   * [Withdraw all staking rewards](reference/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
+* [FAQ](reference/faq.md)
