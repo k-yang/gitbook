@@ -1,8 +1,8 @@
 ---
-description: Deploy a simple counter contract that can increment
+description: Deploy a simple counter contract that can increment and reset
 ---
 
-# Simple counter
+# Simple counter contract
 
 Requires running a [localnet](../run-a-localnet.md).
 

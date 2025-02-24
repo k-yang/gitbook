@@ -7,12 +7,12 @@ description: 'Goal: Run a single-node blockchain on your local computer'
 ## Download the binary
 
 ```bash
-curl -s https://get.nibiru.fi/@v1.5.0! | bash
+curl -s https://get.nibiru.fi/@v2.0.0-p1! | bash
 ```
 
-## Remove any pre-existing state
+## Remove any pre-existing state (optional)
 
-Only necessary if you have pre-existing state in your `~/.nibid` folder, i.e. if you've run a local chain before.
+Only required if you have pre-existing state in your `~/.nibid` folder (if you've run a local chain before).
 
 {% hint style="danger" %}
 Never run these commands on mainnet nodes, or else you'll lose data.
@@ -48,7 +48,7 @@ nibid config output json
 We use the **test** keyring-backend for local development purposes, but it's not recommended for production.&#x20;
 {% endhint %}
 
-## Create a wallet
+## Create a wallet (optional)
 
 Not required if you've already added a wallet.
 
@@ -85,7 +85,7 @@ guard cream sadness conduct invite crumble clock pudding hole grit liar hotel ma
 The mnemonics that appear on this page are no longer safe and should not be used in production.
 {% endhint %}
 
-## Configure x/sudo state
+## Configure the x/sudo state
 
 Required because we don't allow empty sudo addresses in the genesis state. Use the address from the step above.
 
