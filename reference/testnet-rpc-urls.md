@@ -140,6 +140,8 @@ EVM Chain ID: **6900**
 
 
 
+First EVM Block: **18538950**
+
 NIBI ERC-20 Contract Address: `0x7D4B7B8CA7E1a24928Bb96D59249c7a5bd1DfBe6`
 
 </details>
