@@ -40,6 +40,12 @@
 * [How to use Nibiru's testnet faucet](how-to-guides/how-to-use-nibirus-testnet-faucet.md)
 * [Liquid Stake $NIBI with Eris Protocol](how-to-guides/liquid-stake-usdnibi-with-eris-protocol.md)
 * [CosmWasm oracle query](how-to-guides/cosmwasm-oracle-query.md)
+* [Stake and claim rewards](how-to-guides/stake-and-claim-rewards/README.md)
+  * [Query all delegations](how-to-guides/stake-and-claim-rewards/query-all-delegations.md)
+  * [Query all staking rewards](how-to-guides/stake-and-claim-rewards/query-all-staking-rewards.md)
+  * [Withdraw all staking rewards](how-to-guides/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
+* [Bank commands](how-to-guides/bank-commands.md)
+* [Tokenfactory commands](how-to-guides/tokenfactory-commands.md)
 * [Add Nibiru Chain to MetaMask](how-to-guides/add-nibiru-chain-to-metamask.md)
 
 ## Concepts
@@ -48,14 +54,9 @@
 * [What is cw3?](concepts/what-is-cw3.md)
 * [Custom precompiles](concepts/custom-precompiles/README.md)
   * [Fungible token precompile](concepts/custom-precompiles/fungible-token-precompile.md)
+* [EVM vs Cosmos Accounts](concepts/evm-vs-cosmos-accounts.md)
 
 ## Reference
 
 * [Network Constants](reference/testnet-rpc-urls.md)
-* [Tokenfactory commands](reference/tokenfactory-commands.md)
-* [Bank commands](reference/bank-commands.md)
-* [Stake and claim rewards](reference/stake-and-claim-rewards/README.md)
-  * [Query all delegations](reference/stake-and-claim-rewards/query-all-delegations.md)
-  * [Query all staking rewards](reference/stake-and-claim-rewards/query-all-staking-rewards.md)
-  * [Withdraw all staking rewards](reference/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
 * [FAQ](reference/faq.md)
