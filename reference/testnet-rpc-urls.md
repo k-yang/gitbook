@@ -116,7 +116,7 @@ EVM Chain ID: **6922**
 
 <summary>cataclysm-1</summary>
 
-ull Node RPC URL: **https://rpc.nibiru.fi:443**
+Full Node RPC URL: **https://rpc.nibiru.fi:443**
 
 Archive Node RPC URL: **https://rpc.archive.nibiru.fi:443**
 
