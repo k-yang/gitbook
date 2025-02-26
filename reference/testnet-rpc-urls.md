@@ -54,6 +54,10 @@ EVM WebSocket URL: **wss://evm-rpc-ws.testnet-2.nibiru.fi**
 
 EVM Chain ID: **6911**
 
+
+
+Block spee&#x64;**: 5 seconds**
+
 </details>
 
 <details>
@@ -137,6 +141,10 @@ Archive Node EVM RPC URL: **https://evm-rpc.archive.nibiru.fi:443**
 EVM WebSocket URL: **wss://evm-rpc-ws.nibiru.fi**
 
 EVM Chain ID: **6900**
+
+
+
+Block speed: **\~1 to 1.5 seconds**
 
 
 
