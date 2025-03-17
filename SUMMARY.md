@@ -55,6 +55,7 @@
 * [Custom precompiles](concepts/custom-precompiles/README.md)
   * [Fungible token precompile](concepts/custom-precompiles/fungible-token-precompile.md)
 * [EVM vs Cosmos Accounts](concepts/evm-vs-cosmos-accounts.md)
+* [Bank coins vs EVM assets](concepts/bank-coins-vs-evm-assets.md)
 
 ## Reference
 
