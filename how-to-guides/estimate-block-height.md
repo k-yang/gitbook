@@ -17,7 +17,7 @@ cd estimator
 go run main.go \
 -date "May 13, 2024 12:00PM GMT" \
 -votingPeriod 48h \
--rpc https://nibiru.rpc.kjnodes.com:443 \
+-rpc https://rpc.nibiru.fi:443 \
 -samples 10000
 ```
 
@@ -28,6 +28,6 @@ go run main.go \
 ```bash
 go run main.go \
 -height 100 \
--rpc https://nibiru.rpc.kjnodes.com:443 \
+-rpc https://rpc.nibiru.fi:443 \
 -samples 10000
 ```

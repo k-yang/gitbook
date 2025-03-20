@@ -29,12 +29,9 @@
   * [Toggle inflation](how-to-guides/submit-governance-proposals/toggle-inflation.md)
   * [Vote on proposal](how-to-guides/submit-governance-proposals/vote-on-proposal.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)
-* [How to bridge USDC to Nibiru Chain](how-to-guides/how-to-bridge-usdc-to-nibiru-chain.md)
 * [Convert x/bank coins to ERC-20](how-to-guides/convert-x-bank-coins-to-erc-20.md)
 * [Convert ERC-20 tokens to bank](how-to-guides/convert-erc-20-tokens-to-bank.md)
 * [Query ERC-20 contract info](how-to-guides/query-erc-20-contract-info.md)
-* [How to use Nibiru's testnet faucet](how-to-guides/how-to-use-nibirus-testnet-faucet.md)
-* [Liquid Stake $NIBI with Eris Protocol](how-to-guides/liquid-stake-usdnibi-with-eris-protocol.md)
 * [Bank commands](how-to-guides/bank-commands.md)
 * [CosmWasm oracle query](how-to-guides/cosmwasm-oracle-query.md)
 * [Stake and claim rewards](how-to-guides/stake-and-claim-rewards/README.md)
@@ -62,3 +59,9 @@
 
 * [Network Constants](reference/testnet-rpc-urls.md)
 * [FAQ](reference/faq.md)
+
+## DeFi
+
+* [How to bridge USDC.nobl to Nibiru Chain](defi/how-to-bridge-usdc.nobl-to-nibiru-chain.md)
+* [Liquid Stake $NIBI with Eris Protocol](defi/liquid-stake-usdnibi-with-eris-protocol.md)
+* [How to use Nibiru's testnet faucet](defi/how-to-use-nibirus-testnet-faucet.md)
