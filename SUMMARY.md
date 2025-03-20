@@ -64,7 +64,7 @@
 ## DeFi
 
 * [How to bridge USDC.nobl to Nibiru Chain](defi/how-to-bridge-usdc.nobl-to-nibiru-chain.md)
-* [Liquid Stake $NIBI with Eris Protocol](defi/liquid-stake-usdnibi-with-eris-protocol.md)
+* [How to liquid stake NIBI](defi/how-to-liquid-stake-nibi.md)
 * [How to use Nibiru's testnet faucet](defi/how-to-use-nibirus-testnet-faucet.md)
 
 ## ERC20
