@@ -1,6 +1,6 @@
 # Convert x/bank coins to ERC-20
 
-First, start a [localnet](../tutorials/run-a-localnet.md)&#x20;
+First, start a [localnet](../tutorials/run-locally.md)&#x20;
 
 ## Create a fungible token mapping from a bank coin
 

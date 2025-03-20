@@ -1,16 +1,20 @@
 ---
-description: 'Goal: Run a single-node blockchain on your local computer'
+description: Run a single-node blockchain locally
 ---
 
-# Run a Localnet
+# Run locally
 
 ## Download the binary
 
 ```bash
-curl -s https://get.nibiru.fi/@v2.0.0-p1! | bash
+curl -s https://get.nibiru.fi/@v2.1.0 | bash
 ```
 
-## Remove any pre-existing state (optional)
+{% hint style="info" %}
+You can check [https://github.com/NibiruChain/nibiru/releases](https://github.com/NibiruChain/nibiru/releases) for the latest release version.
+{% endhint %}
+
+## \[Optional] Remove old local state
 
 Only required if you have pre-existing state in your `~/.nibid` folder (if you've run a local chain before).
 
@@ -24,18 +28,12 @@ rm ~/.nibid/config/genesis.json
 rm -rf ~/.nibid/config/gentx/
 ```
 
-## Initialize the chain directory
+## Initialize the config files
 
 ```bash
 CHAIN=nibiru-localnet-0
 
 nibid init $CHAIN --chain-id=$CHAIN
-```
-
-## Configure the CLI
-
-```bash
-CHAIN=nibiru-localnet-0
 
 nibid config chain-id $CHAIN && \
 nibid config broadcast-mode sync && \
@@ -48,9 +46,7 @@ nibid config output json
 We use the **test** keyring-backend for local development purposes, but it's not recommended for production.&#x20;
 {% endhint %}
 
-## Create a wallet (optional)
-
-Not required if you've already added a wallet.
+## \[Optional] Create a wallet
 
 ### Option 1: Create a new mnemonic
 
@@ -81,31 +77,27 @@ You can input the following mnemonic:
 guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 The mnemonics that appear on this page are no longer safe and should not be used in production.
 {% endhint %}
 
-## Configure the x/sudo state
+## Configure the genesis state
 
-Required because we don't allow empty sudo addresses in the genesis state. Use the address from the step above.
+We require some custom genesis state to be set in order for the chain to start.
 
 <pre class="language-bash"><code class="lang-bash"><strong>cat ~/.nibid/config/genesis.json | jq '.app_state.sudo.sudoers.root = "nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl"' > ~/.nibid/config/tmp_genesis.json
 </strong>mv ~/.nibid/config/tmp_genesis.json ~/.nibid/config/genesis.json
 
 cat ~/.nibid/config/genesis.json | jq '.app_state.sudo.sudoers.contracts = ["nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl"]' > ~/.nibid/config/tmp_genesis.json
 mv ~/.nibid/config/tmp_genesis.json ~/.nibid/config/genesis.json
-</code></pre>
 
-## Setup genesis accounts
-
-```bash
 CHAIN=nibiru-localnet-0
 ADDRESS=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
 nibid add-genesis-account $ADDRESS 10000000000000000000unibi
 nibid genesis gentx validator 9000000000unibi --chain-id $CHAIN
 nibid genesis collect-gentxs
-```
+</code></pre>
 
 ## Start the chain
 

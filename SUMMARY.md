@@ -4,15 +4,11 @@
 
 ## Tutorials
 
-* [Installation](tutorials/installation.md)
-* [Run a Localnet](tutorials/run-a-localnet.md)
-* [CosmWasm contracts](tutorials/cosmwasm-contracts/README.md)
-  * [Simple counter contract](tutorials/cosmwasm-contracts/simple-counter-contract.md)
-  * [CW20](tutorials/cosmwasm-contracts/cw20.md)
-* [Deploy a CW3 Multisig](tutorials/deploy-a-cw3-multisig/README.md)
-  * [Deploy cw4-group](tutorials/deploy-a-cw3-multisig/deploy-cw4-group.md)
-  * [Deploy cw3-flex-multisig](tutorials/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
-  * [Stake as cw3](tutorials/deploy-a-cw3-multisig/stake-as-cw3.md)
+* [Install nibid binary](tutorials/install-nibid-binary.md)
+* [Run locally](tutorials/run-locally.md)
+* [CosmWasm](tutorials/cosmwasm/README.md)
+  * [Counter](tutorials/cosmwasm/counter.md)
+  * [CW20](tutorials/cosmwasm/cw20.md)
 * [IBC](how-to-guides/ibc-transfer.md)
   * [Run a chaosnet](tutorials/ibc/run-a-chaosnet.md)
   * [IBC Transfer](tutorials/ibc/ibc-transfer.md)
@@ -47,6 +43,11 @@
   * [Withdraw all staking rewards](how-to-guides/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
 * [Tokenfactory commands](how-to-guides/tokenfactory-commands.md)
 * [Add Nibiru Chain to MetaMask](how-to-guides/add-nibiru-chain-to-metamask.md)
+* [Deploy a CW3 Multisig](how-to-guides/deploy-a-cw3-multisig/README.md)
+  * [Deploy cw4-group](how-to-guides/deploy-a-cw3-multisig/deploy-cw4-group.md)
+  * [Deploy cw3-flex-multisig](how-to-guides/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
+  * [Stake as cw3](how-to-guides/deploy-a-cw3-multisig/stake-as-cw3.md)
+* [Optimize CosmWasm builds](how-to-guides/optimize-cosmwasm-builds.md)
 
 ## Concepts
 

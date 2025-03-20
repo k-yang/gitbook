@@ -2,9 +2,9 @@
 description: Deploy a simple counter contract that can increment and reset
 ---
 
-# Simple counter contract
+# Counter
 
-Requires running a [localnet](../run-a-localnet.md).
+Requires running a [localnet](../run-locally.md).
 
 ## Prerequisites
 
@@ -26,45 +26,22 @@ cargo install cargo-run-script
 ## Clone the repo
 
 ```bash
-PROJECT_NAME=tutorial
-
-cargo generate --git https://github.com/CosmWasm/cw-template.git --name $PROJECT_NAME
+cargo generate --git https://github.com/CosmWasm/cw-template.git --name tutorial
 
 cd tutorial/
 ```
 
 ## Compile the contracts
 
-To produce a simple, unoptimized build:
+To produce a simple, unoptimized build, run the following:
 
 ```bash
 cargo wasm
 ```
 
-To produce an optimized, deterministic build:
-
-### Amd64 machines
-
-```bash
-# amd64 machines
-docker run --rm -v "$(pwd)":/code \
-  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/target \
-  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/optimizer:0.15.0
-```
-
-### Arm64 machines
-
-```bash
-docker run --rm -v "$(pwd)":/code \
-  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/target \
-  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/optimizer-arm64:0.15.0
-```
-
 It should produce a compiled `*.wasm` file in the `artifacts/` directory.
 
-## Store the contract
+## Upload the contract
 
 ```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
@@ -77,7 +54,7 @@ nibid tx wasm store artifacts/tutorial-aarch64.wasm \
 --yes | tx
 ```
 
-## Instantiate the contract
+## Instantiate a contract instance
 
 ```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
@@ -385,7 +362,9 @@ nibid tx wasm instantiate 1 \
 
 Save the contract address for the next step.
 
-## Increment the counter
+## Execute the contract
+
+To increment the counter in the contract, run the following:
 
 ```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
@@ -662,7 +641,9 @@ $CONTRACT_ADDRESS \
 
 </details>
 
-## Query the counter
+## Query the contract
+
+To query the counter, run the following:
 
 ```bash
 CONTRACT_ADDRESS=nibi1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrs0gfase
@@ -672,13 +653,17 @@ $CONTRACT_ADDRESS \
 '{"get_count": {}}' | jq ".data"
 ```
 
-Example output:
+<details>
+
+<summary>Example output</summary>
 
 ```json
 {
   "count": 1
 }
 ```
+
+</details>
 
 ## Reset the counter
 
@@ -706,10 +691,14 @@ $CONTRACT_ADDRESS \
 '{"get_count": {}}' | jq ".data"
 ```
 
-Example output:
+<details>
+
+<summary>Example output</summary>
 
 ```json
 {
   "count": 0
 }
 ```
+
+</details>

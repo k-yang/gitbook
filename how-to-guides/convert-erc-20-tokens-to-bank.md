@@ -1,6 +1,6 @@
 # Convert ERC-20 tokens to bank
 
-First, start a [localnet](../tutorials/run-a-localnet.md)&#x20;
+First, start a [localnet](../tutorials/run-locally.md)&#x20;
 
 ## Create a fungible token mapping from an ERC-20 contract
 
