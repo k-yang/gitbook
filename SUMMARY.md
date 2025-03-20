@@ -29,9 +29,6 @@
   * [Toggle inflation](how-to-guides/submit-governance-proposals/toggle-inflation.md)
   * [Vote on proposal](how-to-guides/submit-governance-proposals/vote-on-proposal.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)
-* [Convert x/bank coins to ERC-20](how-to-guides/convert-x-bank-coins-to-erc-20.md)
-* [Convert ERC-20 tokens to bank](how-to-guides/convert-erc-20-tokens-to-bank.md)
-* [Query ERC-20 contract info](how-to-guides/query-erc-20-contract-info.md)
 * [Bank commands](how-to-guides/bank-commands.md)
 * [CosmWasm oracle query](how-to-guides/cosmwasm-oracle-query.md)
 * [Stake and claim rewards](how-to-guides/stake-and-claim-rewards/README.md)
@@ -46,14 +43,18 @@
   * [Stake as cw3](how-to-guides/deploy-a-cw3-multisig/stake-as-cw3.md)
 * [Optimize CosmWasm builds](how-to-guides/optimize-cosmwasm-builds.md)
 
+***
+
+* [Send NIBI to an EVM address from a Cosmos wallet](send-nibi-to-an-evm-address-from-a-cosmos-wallet.md)
+
 ## Concepts
 
+* [EVM vs Cosmos Addresses](concepts/evm-vs-cosmos-addresses.md)
+* [EVM assets vs native coins](concepts/evm-assets-vs-native-coins.md)
 * [CosmWasm](concepts/cosmwasm.md)
 * [What is cw3?](concepts/what-is-cw3.md)
 * [Custom precompiles](concepts/custom-precompiles/README.md)
   * [Fungible token precompile](concepts/custom-precompiles/fungible-token-precompile.md)
-* [EVM vs Cosmos Accounts](concepts/evm-vs-cosmos-accounts.md)
-* [Bank coins vs EVM assets](concepts/bank-coins-vs-evm-assets.md)
 
 ## Reference
 
@@ -65,3 +66,9 @@
 * [How to bridge USDC.nobl to Nibiru Chain](defi/how-to-bridge-usdc.nobl-to-nibiru-chain.md)
 * [Liquid Stake $NIBI with Eris Protocol](defi/liquid-stake-usdnibi-with-eris-protocol.md)
 * [How to use Nibiru's testnet faucet](defi/how-to-use-nibirus-testnet-faucet.md)
+
+## ERC20
+
+* [Query ERC-20 metadata](erc20/query-erc-20-metadata.md)
+* [Convert Cosmos coins to ERC-20](erc20/convert-cosmos-coins-to-erc-20.md)
+* [Convert ERC-20 tokens to bank](erc20/convert-erc-20-tokens-to-bank.md)

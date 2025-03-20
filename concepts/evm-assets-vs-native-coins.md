@@ -1,10 +1,10 @@
 ---
-description: Explain the differences between Cosmos x/bank coins and Nibiru EVM assets
+description: Explain the differences between native x/bank coins and Nibiru EVM assets
 ---
 
-# Bank coins vs EVM assets
+# EVM assets vs native coins
 
-Due to Nibiru’s dual nature as a Cosmos layer 1 with an EVM execution client, Nibiru Chain supports both Cosmos x/bank coins and EVM assets. For the purposes of this discussion, EVM assets are also referred to as ERC20 tokens.
+Due to Nibiru’s dual nature as a layer 1 built using the Cosmos SDK with an EVM execution client, Nibiru Chain supports both Cosmos SDK x/bank coins and EVM assets. For the purposes of this discussion, EVM assets are also referred to as ERC20 tokens.
 
 Every Cosmos SDK chain comes pre-wired with an x/bank module. The x/bank module is conceptually an ERC1155 implementation written in Golang. It tracks user balances for multiple token denoms.
 

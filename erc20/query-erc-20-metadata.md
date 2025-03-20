@@ -1,6 +1,6 @@
-# Query ERC-20 contract info
+# Query ERC-20 metadata
 
-## Query ERC-20
+## Using ethers.js
 
 ```typescript
 import { HDNodeWallet, JsonRpcProvider, Wallet } from "ethers";
