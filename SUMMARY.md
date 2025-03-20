@@ -70,5 +70,5 @@
 ## ERC20
 
 * [Query ERC-20 metadata](erc20/query-erc-20-metadata.md)
-* [Convert Cosmos coins to ERC-20](erc20/convert-cosmos-coins-to-erc-20.md)
+* [Convert native coins to ERC-20](erc20/convert-native-coins-to-erc-20.md)
 * [Convert ERC-20 tokens to bank](erc20/convert-erc-20-tokens-to-bank.md)

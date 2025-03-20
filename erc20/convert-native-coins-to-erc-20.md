@@ -1,15 +1,19 @@
-# Convert x/bank coins to ERC-20
+---
+description: Showcases the fungible token mapping capabilities
+---
+
+# Convert native coins to ERC-20
 
 First, start a [localnet](../tutorials/run-locally.md)&#x20;
 
-## Create a fungible token mapping from a bank coin
+## \[One time] Create a fungible token mapping from a bank coin
 
-Run the following command:
+Only required if the fungible token mapping doesn't exist. For \`unibi\`, it already exists at \``` 0x7D4B7B8CA7E1a24928Bb96D59249c7a5bd1DfBe6` ``. To create a fungible token mapping, run the following:
 
 ```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
 
-nibid tx evm create-funtoken-from-bank-coin unibi \
+nibid tx evm create-funtoken unibi \
 --from $FROM \
 --gas auto \
 --gas-adjustment 1.5 \
@@ -55,14 +59,14 @@ There should be a `EventFunTokenCreated` event that displays the newly deployed 
 
 </details>
 
-## Convert bank coins to ERC-20
+## Convert native coins to ERC-20
 
 ```bash
 FROM=nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl
-TO=0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
+RECIPIENT=0xFaF227daD0b91C2dEBD41daE71C959EA4f95f8F8
 
 nibid tx evm convert-coin-to-evm \
-$TO \
+$RECIPIENT \
 1000unibi \
 --from $FROM \
 --gas auto \
