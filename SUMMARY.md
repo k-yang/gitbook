@@ -6,6 +6,8 @@
 
 * [Install nibid binary](tutorials/install-nibid-binary.md)
 * [Run locally](tutorials/run-locally.md)
+* [EVM](tutorials/evm/README.md)
+  * [ERC20 Contract](tutorials/evm/erc20-contract.md)
 * [CosmWasm](tutorials/cosmwasm/README.md)
   * [Counter](tutorials/cosmwasm/counter.md)
   * [CW20](tutorials/cosmwasm/cw20.md)
@@ -13,8 +15,6 @@
   * [Run a chaosnet](tutorials/ibc/run-a-chaosnet.md)
   * [IBC Transfer](tutorials/ibc/ibc-transfer.md)
   * [Interchain Accounts](tutorials/ibc/interchain-accounts.md)
-* [EVM](tutorials/evm/README.md)
-  * [ERC20 Contract](tutorials/evm/erc20-contract.md)
 
 ## How-To Guides
 
