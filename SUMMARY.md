@@ -18,34 +18,18 @@
 
 ## How-To Guides
 
-* [Token vesting contracts](how-to-guides/token-vesting-contracts/README.md)
-  * [Deploy token vesting contract](how-to-guides/deploy-token-vesting.md)
-  * [Query vested tokens](how-to-guides/token-vesting-contracts/query-vested-tokens.md)
-  * [Claim vested tokens](how-to-guides/claim-vested-tokens.md)
+* [Send NIBI to an EVM address from a Cosmos wallet](how-to-guides/send-nibi-to-an-evm-address-from-a-cosmos-wallet.md)
 * [Submit governance proposals](how-to-guides/submit-governance-proposal.md)
   * [Community spend](how-to-guides/submit-governance-proposals/community-spend.md)
   * [Software upgrade](how-to-guides/submit-governance-proposals/software-upgrade.md)
   * [Update gov params](how-to-guides/submit-governance-proposals/update-gov-params.md)
   * [Toggle inflation](how-to-guides/submit-governance-proposals/toggle-inflation.md)
   * [Vote on proposal](how-to-guides/submit-governance-proposals/vote-on-proposal.md)
-* [Estimate block height](how-to-guides/estimate-block-height.md)
-* [Bank commands](how-to-guides/bank-commands.md)
-* [CosmWasm oracle query](how-to-guides/cosmwasm-oracle-query.md)
 * [Stake and claim rewards](how-to-guides/stake-and-claim-rewards/README.md)
   * [Query all delegations](how-to-guides/stake-and-claim-rewards/query-all-delegations.md)
   * [Query all staking rewards](how-to-guides/stake-and-claim-rewards/query-all-staking-rewards.md)
   * [Withdraw all staking rewards](how-to-guides/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
-* [Tokenfactory commands](how-to-guides/tokenfactory-commands.md)
-* [Add Nibiru Chain to MetaMask](how-to-guides/add-nibiru-chain-to-metamask.md)
-* [Deploy a CW3 Multisig](how-to-guides/deploy-a-cw3-multisig/README.md)
-  * [Deploy cw4-group](how-to-guides/deploy-a-cw3-multisig/deploy-cw4-group.md)
-  * [Deploy cw3-flex-multisig](how-to-guides/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
-  * [Stake as cw3](how-to-guides/deploy-a-cw3-multisig/stake-as-cw3.md)
-* [Optimize CosmWasm builds](how-to-guides/optimize-cosmwasm-builds.md)
-
-***
-
-* [Send NIBI to an EVM address from a Cosmos wallet](send-nibi-to-an-evm-address-from-a-cosmos-wallet.md)
+* [Estimate block height](how-to-guides/estimate-block-height.md)
 
 ## Concepts
 
@@ -60,6 +44,27 @@
 
 * [Network Constants](reference/testnet-rpc-urls.md)
 * [FAQ](reference/faq.md)
+
+***
+
+* [Optimize CosmWasm builds](optimize-cosmwasm-builds.md)
+
+## EVM
+
+* [Add Nibiru Chain to MetaMask](evm/add-nibiru-chain-to-metamask.md)
+
+## CosmWasm
+
+* [Deploy a CW3 Multisig](cosmwasm/deploy-a-cw3-multisig/README.md)
+  * [Deploy cw4-group](cosmwasm/deploy-a-cw3-multisig/deploy-cw4-group.md)
+  * [Deploy cw3-flex-multisig](cosmwasm/deploy-a-cw3-multisig/deploy-cw3-flex-multisig.md)
+  * [Stake as cw3](cosmwasm/deploy-a-cw3-multisig/stake-as-cw3.md)
+* [CosmWasm oracle query](cosmwasm/cosmwasm-oracle-query.md)
+* [Token vesting contracts](cosmwasm/token-vesting-contracts/README.md)
+  * [Deploy token vesting contract](cosmwasm/token-vesting-contracts/deploy-token-vesting-contract.md)
+  * [Query vested tokens](cosmwasm/token-vesting-contracts/query-vested-tokens.md)
+  * [Claim vested tokens](cosmwasm/token-vesting-contracts/claim-vested-tokens.md)
+* [Tokenfactory commands](cosmwasm/tokenfactory-commands.md)
 
 ## DeFi
 
