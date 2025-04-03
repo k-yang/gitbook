@@ -42,6 +42,7 @@
 
 ## Reference
 
+* [Oracle Contracts](reference/oracle-contracts.md)
 * [Network Constants](reference/testnet-rpc-urls.md)
 * [FAQ](reference/faq.md)
 
