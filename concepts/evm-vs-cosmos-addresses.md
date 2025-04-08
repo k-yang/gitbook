@@ -1,4 +1,4 @@
-# EVM vs Cosmos Accounts
+# EVM vs Cosmos Addresses
 
 ## Background
 
@@ -45,9 +45,9 @@ The table below shows all possible outcomes for the seed phrase `guard cream sad
 | Private Key                              | `68E80819679ABCCDDFA31064EA84B2FE6870B1EAA0EBE2A1FF40A38533CFAB8B`                                                                   | `FF15BD81CDDF469FD807C069F0542E5287EED9009888B71D7CD6925A456487D0`                                                                   |
 | Public Key (Compressed)                  | `026E4A3BEE84DF12A20CB435AAA529B2E2E81F35731E679693CE1AA459CE0980F5`                                                                 | `02FCF004EAE263CB15C045EB5DFD605DA9E14FD8A695F59E5162D0F29331AD1B20`                                                                 |
 | Public Key (Uncompressed)                | `046E4A3BEE84DF12A20CB435AAA529B2E2E81F35731E679693CE1AA459CE0980F53566914E3003EBD626BC1768506FC1CF45A4A9BF5049E28F4EEE508875AEF490` | `04FCF004EAE263CB15C045EB5DFD605DA9E14FD8A695F59E5162D0F29331AD1B201B39BD254661402973A6D68099AB8910E17F7730EB3FA5E114E0153BB9131D92` |
-| Ethereum Address Bytes (Keccak-256)      | `C0F4B45712670CF7865A14816BE9AF9091EDDA1D`                                                                                           | `FAF227DAD0B91C2DEBD41DAE71C959EA4F95F8F8`                                                                                           |
+| Ethereum Address Bytes (Keccak-256)      | `0xC0F4B45712670CF7865A14816BE9AF9091EDDA1D`                                                                                         | `0xFAF227DAD0B91C2DEBD41DAE71C959EA4F95F8F8`                                                                                         |
 | Ethereum Address Bytes as Bech32         | `nibi1cr6tg4cjvux00pj6zjqkh6d0jzg7mksaywxyl3`                                                                                        | `nibi1ltez0kkshywzm675rkh8rj2eaf8et78cqjqrhc`                                                                                        |
-| Cosmos Address Bytes RIPEMD160(SHA256()) | `F317E8AC48EFDE20EA094B9F48EF1ECCEA683D5C`                                                                                           | `177AC608D913F3FE4DAB9C5409D8BFB6CF6DE202`                                                                                           |
+| Cosmos Address Bytes RIPEMD160(SHA256()) | `0xF317E8AC48EFDE20EA094B9F48EF1ECCEA683D5C`                                                                                         | `0x177AC608D913F3FE4DAB9C5409D8BFB6CF6DE202`                                                                                         |
 | Cosmos Address Bytes as Bech32           | `nibi17vt73tzgal0zp6sffw053mc7en4xs02u4mnvn5`                                                                                        | `nibi1zaavvzxez0elundtn32qnk9lkm8kmcsz44g7xl`                                                                                        |
 
 Given one mnemonic, we can end up with four different addresses (eight, if you count the bech32 encodings as distinct) depending on which HD Path we choose and if we use the Ethereum hashing algorithm or the Cosmos hashing algorithm for address derivation.
