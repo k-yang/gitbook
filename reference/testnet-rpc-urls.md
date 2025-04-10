@@ -122,7 +122,7 @@ Block speed: **\~1 to 1.5 seconds**
 
 First EVM Block: **18538950**
 
-NIBI ERC-20 Contract Address: `0x7D4B7B8CA7E1a24928Bb96D59249c7a5bd1DfBe6`
+WNIBI ERC-20 Contract Address: `0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97`
 
 </details>
 
