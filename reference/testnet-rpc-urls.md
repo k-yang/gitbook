@@ -126,3 +126,6 @@ WNIBI ERC-20 Contract Address: `0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97`
 
 </details>
 
+## Peers
+
+You can find the mainnet node peers at [https://networks.nibiru.fi/cataclysm-1](https://networks.nibiru.fi/cataclysm-1).&#x20;
