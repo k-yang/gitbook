@@ -30,6 +30,7 @@
   * [Query all staking rewards](how-to-guides/stake-and-claim-rewards/query-all-staking-rewards.md)
   * [Withdraw all staking rewards](how-to-guides/stake-and-claim-rewards/withdraw-all-staking-rewards.md)
 * [Estimate block height](how-to-guides/estimate-block-height.md)
+* [Optimize CosmWasm builds](how-to-guides/optimize-cosmwasm-builds.md)
 
 ## Concepts
 
@@ -42,13 +43,10 @@
 
 ## Reference
 
+* [Important Contract Addresses (Mainnet)](reference/important-contract-addresses-mainnet.md)
 * [Oracle Contracts](reference/oracle-contracts.md)
 * [Network Constants](reference/testnet-rpc-urls.md)
 * [FAQ](reference/faq.md)
-
-***
-
-* [Optimize CosmWasm builds](optimize-cosmwasm-builds.md)
 
 ## EVM
 
