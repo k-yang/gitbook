@@ -43,7 +43,7 @@
 
 ## Reference
 
-* [Important Contract Addresses (Mainnet)](reference/important-contract-addresses-mainnet.md)
+* [ERC-20 Addresses (Mainnet)](reference/erc-20-addresses-mainnet.md)
 * [Oracle Contracts](reference/oracle-contracts.md)
 * [Network Constants](reference/testnet-rpc-urls.md)
 * [FAQ](reference/faq.md)
