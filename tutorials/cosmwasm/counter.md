@@ -4,7 +4,7 @@ description: Deploy a simple counter contract that can increment and reset
 
 # Counter
 
-Requires running a [localnet](../run-locally.md).
+Requires running a [localnet](../node-runners/run-locally.md).
 
 ## Prerequisites
 

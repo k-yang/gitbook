@@ -2,11 +2,11 @@
 description: How to deploy an ERC20 contract on a localnet.
 ---
 
-# ERC20 Contract
+# ERC20
 
 ## Prerequisites
 
-Run a localnet: [run-locally.md](../run-locally.md "mention")
+Run a localnet: [run-locally.md](../node-runners/run-locally.md "mention")
 
 ## Initialize project directory
 

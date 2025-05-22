@@ -4,7 +4,7 @@ description: Showcases the fungible token mapping capabilities
 
 # Convert native coins to ERC-20
 
-First, start a [localnet](../tutorials/run-locally.md)&#x20;
+First, start a [localnet](../../tutorials/node-runners/run-locally.md)&#x20;
 
 ## \[One time] Create a fungible token mapping from a bank coin
 
