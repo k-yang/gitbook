@@ -37,10 +37,11 @@
 
 ## Reference
 
-* [Important Contract Addresses](reference/important-contract-addresses.md)
+* [Important Contract Addresses](reference/important-contract-addresses-mainnet.md)
 * [Oracle Contracts](reference/oracle-contracts.md)
 * [Network Constants](reference/testnet-rpc-urls.md)
 * [FAQ](reference/faq.md)
+* [LayerZero OFT Contracts](reference/layerzero-oft-contracts.md)
 
 ## Tutorials
 
