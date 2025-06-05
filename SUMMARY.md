@@ -43,6 +43,10 @@
 * [FAQ](reference/faq.md)
 * [LayerZero OFT Contracts](reference/layerzero-oft-contracts.md)
 
+***
+
+* [Important x/bank Denoms](important-x-bank-denoms.md)
+
 ## Tutorials
 
 * [Node Runners](tutorials/node-runners/README.md)
